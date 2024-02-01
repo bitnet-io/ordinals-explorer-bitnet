@@ -1,5 +1,10 @@
 
 * requires node version 18
+* ordhook-bitnet must be running with ordhook-api-bitnet
+
+  * requires bitnetd
+  * requires ordhook-bitnet
+  * requires ordhook-api-bitnet
   
 how to build
 ```
