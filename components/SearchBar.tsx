@@ -292,7 +292,7 @@ const SearchBar = (props: { className?: string; small?: boolean }) => {
               onChange={(ev) => setSearch(ev.target.value.trim().toLowerCase())}
               onFocus={() => setIsFocused(true)}
               onBlur={() => setIsFocused(false)}
-              placeholder="Search by inscription, sat, block, or BRC-20 token"
+              placeholder="Search by inscription, sat, block, or BIT-20 token"
             />
             {/* CMD K badge */}
             <div

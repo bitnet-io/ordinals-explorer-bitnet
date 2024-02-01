@@ -1,6 +1,11 @@
+
+HOST='0.0.0.0' PORT=80 npm run start
+
+
+
 # Hiro Ordinals Explorer
 
-➡️ https://ordinals.hiro.so 🌐
+➡️ http://bitnft.io 🌐
 
 ![Ordinals Explorer](public/og-image.png)
 

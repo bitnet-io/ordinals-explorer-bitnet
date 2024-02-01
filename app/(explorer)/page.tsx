@@ -53,19 +53,19 @@ export default function Home() {
           <p className="mt-4">
             Download{" "}
             <a
-              href="https://leather.io/install-extension"
+              href="https://github.com/bitnet-io/bit-ord/releases"
               target="_blank"
               className="text-neutral-300"
             >
-              Leather
+              BIT-ORD releases
             </a>{" "}
             and try{" "}
             <a
-              href="https://gamma.io/"
+              href="https://bitnet-io.org/NFT"
               target="_blank"
               className="text-neutral-300"
             >
-              Gamma.io
+              bitnet-io.org NFT inscriber
             </a>
           </p>
         </div>
@@ -73,10 +73,11 @@ export default function Home() {
           <div className="pointer-events-none flex h-16 w-16 items-center justify-center rounded bg-neutral-0">
             <img src="/b-illustration.svg" alt="Bitcoin Icon" />
           </div>
-          <h4 className="mt-7 text-2xl">What are Ordinals?</h4>
+          <h4 className="mt-7 text-2xl">What are BitOrdinals?</h4>
           <p className="mt-4">
-            Ordinal Inscriptions, similar to NFTs, are digital assets inscribed
-            on a satoshi, the lowest denomination of a Bitcoin (BTC).{" "}
+            BitOrdinal Inscriptions, similar to NFTs, are digital assets inscribed
+            on a radiowave, the lowest denomination of a Bitnet IO (BIT). They are based
+	    off of Bitcoin Ordinals{" "}
             <a
               href="https://www.hiro.so/blog/what-are-bitcoin-ordinals "
               target="_blank"

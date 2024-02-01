@@ -284,7 +284,7 @@ const TransferRow = ({
           <div className="overflow-hidden text-ellipsis">
             <Link
               className="underline"
-              href={`https://mempool.space/tx/${transfer.tx_id}`}
+              href={`https://bitexplorer.io/tx/${transfer.tx_id}`}
               target="_blank"
             >
               <span className="min-w-0 overflow-hidden text-ellipsis">

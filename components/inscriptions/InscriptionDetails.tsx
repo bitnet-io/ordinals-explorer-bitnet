@@ -151,11 +151,11 @@ const InscriptionDetails = (params: { iid: string }) => {
             <div className="flex">
               <Tooltip>
                 <TooltipContent variant="dark" side="top" sideOffset={6}>
-                  View on ordinals.com
+                  View on bitordinals.io
                 </TooltipContent>
                 <TooltipTrigger asChild>
                   <Link
-                    href={`https://ordinals.com/inscription/${data.id}`}
+                    href={`http://bitordinals.io/inscription/${data.id}`}
                     className="rounded bg-neutral-0 px-1 py-1 transition-colors hover:bg-neutral-50"
                     target="_blank"
                   >
@@ -172,7 +172,7 @@ const InscriptionDetails = (params: { iid: string }) => {
                 <TooltipTrigger asChild>
                   <Link
                     href={`https://twitter.com/intent/tweet?text=${encodeURI(
-                      `Inscription ${data.number} on the @hirosystems Ordinals Explorer https://ordinals.hiro.so/inscription/${data.number}`
+                      `Inscription ${data.number} on the @hirosystems Ordinals Explorer http://bitnft.io/inscription/${data.number}`
                     )}`}
                     className="rounded bg-neutral-0 px-1 py-1 transition-colors hover:bg-neutral-50"
                     target="_blank"
@@ -278,7 +278,7 @@ const InscriptionDetails = (params: { iid: string }) => {
                       <div>
                         <Link
                           className="underline"
-                          href={`https://mempool.space/tx/${data.genesis_tx_id}`}
+                          href={`https://bitexplorer.io/tx/${data.genesis_tx_id}`}
                           target="_blank"
                         >
                           {data.genesis_tx_id}

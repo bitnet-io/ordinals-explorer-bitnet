@@ -18,7 +18,7 @@
     "@radix-ui/react-select": "^1.2.2",
     "@radix-ui/react-tooltip": "^1.0.6",
     "@scure/base": "^1.1.1",
-    "@stacks/stacking": "^6.5.4",
+   "@stacks/stacking":  "bitnet-io/stacks.js#main",
     "class-variance-authority": "^0.6.0",
     "clsx": "^1.2.1",
     "d3": "^7.8.4",

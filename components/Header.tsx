@@ -42,7 +42,7 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
           href="/protocols/brc-20"
           className="rounded-md px-3.5 py-2.5 transition-colors hover:bg-neutral-0"
         >
-          BRC-20
+          BIT-20
         </Link>
         {/* todo: re-enable different explore modes */}
         {/* <HoverCard openDelay={0}>
@@ -81,10 +81,10 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
         </HoverCard> */}
         <Link
           target="_blank"
-          href="https://hiro.so"
+          href="https://bitnet-io.org/NFT"
           className="rounded-md px-3.5 py-2.5 text-neutral-300 hover:text-neutral-500"
         >
-          hiro.so
+          bitnet-io.org/NFT
           <ArrowUpRight className="inline" size={16} />
         </Link>
       </div>
