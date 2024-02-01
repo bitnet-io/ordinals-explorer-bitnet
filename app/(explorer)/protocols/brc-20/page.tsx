@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import Brc20Homepage from "../../../../components/Brc20Homepage";
 
 export const metadata: Metadata = {
-  title: "BRC-20 Explorer",
+  title: "BIT-20 Explorer",
   description:
-    "Discover the world of BRC-20 tokens on top of Ordinal Inscriptions with the Hiro Ordinals Explorer. Dive deep into this unique universe of digital assets inscribed on satoshis, the smallest unit of Bitcoin.",
+    "Discover the world of BIT-20 tokens on top of BitOrdinal Inscriptions with the BitNFT.io BitOrdinals Explorer. Dive deep into this unique universe of digital assets inscribed on radiowaves, the smallest unit of Bitnet.",
 };
 
 const Page = () => {

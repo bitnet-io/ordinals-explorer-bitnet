@@ -39,7 +39,7 @@ const BrcDetails = (params: { ticker: string }) => {
                 {decodeURIComponent(params.ticker)}
               </h1>
               <div className="b-3 rounded-md border-2 border-sky-400 bg-sky-100 px-1 text-base leading-tight text-sky-600">
-                BRC-20
+                BIT-20
               </div>
             </div>
             <div className="flex w-full max-w-[320px] flex-col pb-10 pt-4 text-sm sm:self-auto sm:p-0">

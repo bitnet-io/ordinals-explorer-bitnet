@@ -343,7 +343,7 @@ const Brc20TokenRow = ({ token }: { token: Brc20TokenResponse }) => {
               <img src={thumbnail} alt={`${token.ticker} thumbnail`} />
             ) : (
               <>
-                <div className="leading-none">BRC</div>
+                <div className="leading-none">BIT</div>
                 <div className="text-lg leading-none">20</div>
               </>
             )}

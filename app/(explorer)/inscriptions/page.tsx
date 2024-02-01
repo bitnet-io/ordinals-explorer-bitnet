@@ -221,7 +221,7 @@ const Page = () => {
           <TextFilter
             name="Address"
             text={address}
-            placeholder="bc1q..."
+            placeholder="bit1q..."
             onApply={(t) => updateParam("a", t)}
           />
           <hr className="my-3 border-dashed border-neutral-200" />
