@@ -8,6 +8,11 @@
   
 how to build
 ```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install 18
+nvm use 18
+
 npm install
 npm run build
 HOST='0.0.0.0' PORT=80 npm run start
