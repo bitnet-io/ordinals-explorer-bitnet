@@ -18,14 +18,14 @@ npm run build
 HOST='0.0.0.0' PORT=80 npm run start
 ```
 
-set your .env file
+set your .env file 
 ```
 #https://api.hiro.so/ordinals/v1
-NEXT_PUBLIC_API_URL=http://172.233.85.151:3000/ordinals/v1
-NEXT_PUBLIC_API_BETA_URL=http://172.233.85.151:3000/ordinals/v1
+NEXT_PUBLIC_API_URL=http://localhost:3000/ordinals/v1
+NEXT_PUBLIC_API_BETA_URL=http://localhost:3000/ordinals/v1
 NEXT_PUBLIC_PREVIEW_URL=
 ENABLE_CSP=
-URL=https://bitnft.io
+
 ```
 
 
