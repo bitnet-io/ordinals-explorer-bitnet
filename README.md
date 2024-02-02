@@ -15,7 +15,6 @@ nvm use 18
 
 npm install
 npm run build
-HOST='0.0.0.0' PORT=80 npm run start
 ```
 
 set your .env file 
@@ -27,7 +26,10 @@ NEXT_PUBLIC_PREVIEW_URL=
 ENABLE_CSP=
 
 ```
-
+after your .env file is set run the actual node.js explorer site
+```
+HOST='0.0.0.0' PORT=80 npm run start
+```
 
 # Hiro Ordinals Explorer
 
