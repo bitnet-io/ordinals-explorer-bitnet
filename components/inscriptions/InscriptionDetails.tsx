@@ -149,25 +149,11 @@ const InscriptionDetails = (params: { iid: string }) => {
               Inscription #{data.number}
             </h2>
             <div className="flex">
-              <Tooltip>
-                <TooltipContent variant="dark" side="top" sideOffset={6}>
-                  View on bitordinals.io
-                </TooltipContent>
-                <TooltipTrigger asChild>
-                  <Link
-                    href={`http://bitordinals.io/inscription/${data.id}`}
-                    className="rounded bg-neutral-0 px-1 py-1 transition-colors hover:bg-neutral-50"
-                    target="_blank"
-                  >
-                    <ExternalLinkIcon />
-                  </Link>
-                </TooltipTrigger>
-              </Tooltip>
             </div>
             <div className="flex">
               <Tooltip>
                 <TooltipContent variant="dark" side="top" sideOffset={6}>
-                  Share on Twitter
+                  Share on X.com
                 </TooltipContent>
                 <TooltipTrigger asChild>
                   <Link

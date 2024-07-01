@@ -39,6 +39,11 @@ const nextConfig = {
         destination: `/inscriptions`,
         permanent: false,
       },
+      {
+        source: "/stacking",
+        destination: `https://bitnft.io:444/`,
+        permanent: false,
+      },
     ];
   },
 };

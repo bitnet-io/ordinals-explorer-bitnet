@@ -53,11 +53,11 @@ export default function Home() {
           <p className="mt-4">
             Download{" "}
             <a
-              href="https://github.com/bitnet-io/bit-ord/releases"
+              href="https://github.com/bitnet-io/BitOrdinals/releases/tag/firefox-chrome-nakamoto-testing"
               target="_blank"
               className="text-neutral-300"
             >
-              BIT-ORD releases
+              BitOrdinals Wallet releases
             </a>{" "}
             and try{" "}
             <a

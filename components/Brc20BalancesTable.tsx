@@ -58,7 +58,7 @@ const Brc20BalancesTable = ({ address }: { address: string }) => {
   return (
     <div className="flex flex-col">
       <div className="space-x-3 pb-1">
-        <h2 className="inline text-2xl">BRC-20 Balances</h2>
+        <h2 className="inline text-2xl">BIT-20 Balances</h2>
         <span className="text-neutral-300">({data.total})</span>
       </div>
 
