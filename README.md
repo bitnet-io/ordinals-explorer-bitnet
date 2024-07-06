@@ -1,6 +1,6 @@
 
 * requires node version 18
-* ordhook-bitnet must be running with ordhook-api-bitnet
+* ordhook-bitnet must be running with ordinals-api-bitnet
 
   * requires bitnetd
   * requires ordhook-bitnet
